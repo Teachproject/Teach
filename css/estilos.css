@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Advent Pro', sans-serif;
+}
+/*Menu*/
+/*menu*/
+#menu{
+    width: 100%;
+    height: 15%;
+    text-decoration:none;
+    display: block;
+}
+#menu ul{
+	margin-left:40%;
+    text-align:right;
+}
+#menu ul li{
+    display: inline-block;
+}
+.navbar-header{
+    text-decoration: none;
+}
+.navbar li a, .navbar .navbar-brand{
+    color:#000000 !important; 
+}
+.navbar-nav li a:hover{
+	color:#474747 !important; 
+}
+.navbar-nav li.active a{
+	background-color:#29292c !important; 
+}
+.navbar-default .navbar-toggle{
+	border-color:transparent; 
+}
+/*Sliders*/
+#myCarousel{
+    height: 70%;
+    display: block;
+    padding: 70px;
+    background-color: #d3ede8;
+}
+.item{
+    display: block;
+    height: 100%;
+}
+.item img {
+    height: 400px;
+}
+#parrafo{
+    padding-top: 70px;
+    font-size: 2em;
+    
+}
+#content{
+    padding-top: 70px;
+    padding-left: 8%;
+    font-size: 2em;
+    padding-right: 8%;
+}
+#parrafodos{
+    padding-top: 70px;
+    font-size: 2em;
+    padding-left: 60px;
+}
+.ben{
+    font-size: 2em;
+    font-weight: lighter;
+}
+.apoyo{
+    margin:auto;
+    font-size: 5em;
+    }
+#slideult{
+    text-align: center;
+}
+#apoyouno{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+#apoyodos{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-left: -170px;
+}
+/*Arriba*/
+#contenidodos{
+    width:79%;
+    height: 100%;
+    color: black;
+    float: left;
+    padding-left: 70px;
+    font-size: 5em;
+}
+#imagendos{
+    display: inline-block;
+    width:19%;
+    height: 100%;
+}
+#imagens{
+    width: 190px; 
+    height: 190px;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 20px;
+    margin-top: -35px;
+}
+#secciondos{
+    width: 100%;
+    height: 20%;
+    margin-top: -30px;
+    display: block;
+}
+/*Preguntas*/
+#preguntas
+{ 
+	list-style:none;
+    font-size: 20px;
+}
+
+#preguntas li
+{ 
+	line-height:300%;
+	background-color: #D3EDE8;
+}
+
+#preguntas li a
+{
+    color:#222; text-decoration:none;
+    font-size: 3em;
+
+}
+
+#preguntas li a:before
+{ 
+	content:"\025b8"; color:#ddd; margin-right:4px;
+}
+
+#preguntas input[name="list"] 
+{
+	position: absolute;
+	left: -1000em;
+}
+
+#preguntas label:before
+{ 
+	content:"\025b8"; margin-right:4px;
+}
+
+#preguntas input:checked ~ label:before
+{ 
+	content:"\025be";
+
+}
+
+#preguntas .interior
+{
+	display: none;
+	background-color: #fff;
+}
+
+#preguntas input:checked ~ ul
+{
+	display:block;
+}
+/*Contacto*/
+#tittle{
+	font-family: Advent Pro;
+	font-size: 5em;
+	padding-top: 50px;
+}
+#logo{
+	width: 200px;
+	height: 200px;
+}
+#contenido{
+	background-color: #D4ede8;
+	font-size: 2em;
+}
+#icon{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+#textu{
+	margin-top: 15px;
+}
+/*Formulario y Agradecimiento*/
+#r{
+    text-decoration: underline;
+}
+#g{
+    background-color: #d3ede8;
+    padding: 3%; 
+    border-radius: 10px;
+    display: inline-block;
+}
+#cc{
+    margin-top: 3%;
+}
+
+#cdc{
+    text-align: center;
+}
+#cdcc{
+    background-color: #d3ede8; 
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 3%;
+}
+#cl{
+    display: inline-block;
+    width: auto;
+    height: 30%;
+    margin-top: 80px;
+}
+#guno{
+    font-size: 4em;
+}
+#gdos{
+    font-size: 40px;
+}
+#logoa{
+    width: 370px;
+    height: 370px;
+    margin-top: 30px;
+}
+#emailin{
+    width: 100%;
+    
+}
+#pform{
+    width: 100%;
+}
+#pformdos{
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+
+    #imach{
+        display: none;
+    }
+    #imagendos{
+        display: none;
+    }
+    #imagens{
+        display: none;
+    }
+    #parrafo{
+        padding-top: 9%;
+        font-size: 200% ;
+        padding-bottom: 9%;
+    }
+    #secciondos p{
+        font-size: 60%;
+        text-align: center;
+        padding-bottom:0px;
+    }
+    #myCarousel{
+        font-size: 75%;
+    }
+    #content{
+        margin-left: 15% ; 
+        margin-right: 10%;
+        margin-bottom: 10%;
+        font-size:200% ;
+    }
+    #pform{
+        margin-left: 0px;
+    }
+    #pformdos{
+       margin-left: 0px;
+    }
+    #emailin{
+    width: 100%;
+    margin-left: 0px;
+    }
+    #cl{
+        display: none;
+    }
+    #g{
+        width: 100%;
+    }
+    #logoa{
+        display: none;
+    }
+    #apoyouno{
+        display: none;
+    }
+    #apoyodos{
+        display: none;
+    }
+}
