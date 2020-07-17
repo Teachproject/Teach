@@ -10,10 +10,6 @@
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="../icono/7755icono.ico">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
-    
     <title>Teach</title>
 </head>
 <body>
@@ -42,38 +38,48 @@
         </section>
     </header>
     <section id="secciondos">
-        <div id="contenidodos">
-            <p id="r">Regístrate</p>
-        </div>
-        <div id="imagendos">
-            <img src="../icono/icono.png" id="imagens">
-        </div>
+      <div id="contenidodos">
+          <p>Q&A</p>
+      </div>
+      <div id="imagendos">
+          <img src="../icono/icono.png" id="imagens">
+      </div>
+  </section>
+    <section>
+        <ul id="preguntas">
+            <li><input type="checkbox" name="list" id="nivel1-1"><label for="nivel1-1">¿Que secciones tiene Teach?</label>
+            <ul class="interior">
+                  <label>Las secciones en Teach son los mismos que se muestran en los beneficios</label>
+                 </ul>
+            </li>
+          
+          <li><input type="checkbox" name="list" id="nivel1-2"><label for="nivel1-2">¿Cuantos recursos consume?</label>
+            <ul class="interior">
+                  <label>Ocupa muy pocos recursos</label>
+                 </ul>
+            </li>
+            <li><input type="checkbox" name="list" id="nivel1-3"><label for="nivel1-3">¿Tiene un limite de mienbros?</label>
+            <ul class="interior">
+                  <label>No tiene</label>
+                 </ul>
+            </li>
+            <li><input type="checkbox" name="list" id="nivel1-4"><label for="nivel1-4">¿Que niveles educativos tiene?</label>
+            <ul class="interior">
+                  <label>Los niveles educativos en Teach son: Secundaria, Preparatoria, Universidad y Especialidad</label>
+                 </ul>
+            </li>
+            <li><input type="checkbox" name="list" id="nivel1-5"><label for="nivel1-5">¿Cualquier persona puede meterse a mi equipo?</label>
+              <ul class="interior">
+                    <label>No, solo se podran meter a tu equipo a través de una invitación que les envies</label>
+              </ul>
+            </li>
+            <li><input type="checkbox" name="list" id="nivel1-6"><label for="nivel1-6">¿Cualquier persona puede meterse a mi reunión?</label>
+              <ul class="interior">
+                    <label>No, solo se podran meter los miembros de tu equipo o podrás invitar a personas a que se unan a tu reunión</label>
+              </ul>
+            </li>
+            
+         </ul>
     </section>
-    <form class="text-center border border-light p-5" id="cdc">
-        <section id="cdcc">
-            <div class="row centered">
-                <div class="row centered">
-                    <div class="col-md-5" data-toggle="collapse" data-target="#servicenotopportunities-collapse">
-                        <p>Nombre/s</p>
-                        <input type="text" class="form-control" placeholder="Nombre/s"  id="pform">
-
-                    </div>
-                    <div class="col-md-6 margin" data-toggle="collapse" data-target="#servicenotopportunities-collapse">
-                        <p>Apellidos</p>
-                        <input type="text" class="form-control" placeholder="Apellidos" id="pformdos">
-                    </div>
-                </div>
-                <div class="row centered" id="cc">
-                    <div data-toggle="collapse" data-target="#servicenotopportunities-collapse" id="email">
-                        <p>Correo electrónico</p>
-                    <input type="email" id="emailin" class="form-control" placeholder="Correo electrónico">
-                    <br>
-                    <a class="btn btn-info btn-lg" role="button" href="agradecimiento.html">Registrarme</a>
-                    </div>
-                </div>
-            </div>
-        </section> 
-    </form>
-    <!-- Default form register -->
 </body>
 </html>
